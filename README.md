@@ -1,6 +1,6 @@
 <h1>Nerd_AI</h1>
 <h3>Nexus Entity Replacement Digital Artificial Intelligence</h3>
-## tasks() Function Documentation
+### tasks() Function Documentation
 
 The `tasks()` function is the core of the voice-activated AI assistant. It processes user commands and performs various tasks based on the input. Below is an explanation of the supported commands:
 
