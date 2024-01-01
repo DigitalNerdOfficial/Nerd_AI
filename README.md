@@ -1,63 +1,86 @@
-<h1>Nerd_AI</h1>
-<h3>Nexus Entity Replacement Digital Artificial Intelligence</h3>
-<h2>tasks() Function Documentation</h2>
+# Nexus Entity Replacement Digital Artificial Intelligence (NERD AI) Documentation
 
-The `tasks()` function is the core of the voice-activated AI assistant. It processes user commands and performs various tasks based on the input. Below is an explanation of the supported commands:
+## Introduction
 
-### 1. Web Search:
-   - **Command:** "search [query]"
-   - **Description:** Performs a search on Wikipedia based on the specified query.
-   - **Example:** "search Artificial Intelligence"
+Welcome to NERD AI - your personal digital assistant designed to assist you with various tasks using both text and voice commands. This comprehensive documentation will guide you through the features and functionalities of NERD AI.
 
-### 2. Open Browsers:
-   - **Commands:**
-     - "open chrome": Opens Google Chrome.
-     - "open microsoft edge" or "open edge": Opens Microsoft Edge.
-     - "open brave": Opens Brave browser.
-     - "open opera": Opens Opera browser.
-     - "open mozilla firefox" or "open firefox": Opens Mozilla Firefox.
+## Getting Started
 
-### 3. Open Applications:
-   - **Commands:**
-     - "open cmd": Opens Command Prompt.
-     - "open file explorer" or "open explorer": Opens File Explorer.
-     - "open control panel": Opens Control Panel.
-     - "open notepad": Opens Notepad.
-     - "open calculator": Opens Calculator.
-     - "open calendar": Opens Calendar.
-     - "open mail": Opens Mail.
-     - "open microsoft store": Opens Microsoft Store.
-     - "open music player" or "open video player" or "open media player": Opens default media/music application.
+1. **Requirements:**
+   - Python 3.x
+   - Required Python packages (install using `pip install requirements`)
+     - pyttsx3
+     - speech_recognition
+     - wikipedia-api
+     - googletrans==4.0.0-rc1
 
-### 4. Display Time, Date, and Day:
-   - **Commands:**
-     - "time": Displays the current time.
-     - "date" or "day": Displays the current date and day.
+2. **Setup:**
+   - Clone the NERD AI repository.
+   - Navigate to the project directory in your terminal.
 
-### 5. Simple Chats:
-   - **Commands:**
-     - "hi" or "hello": Greets the user.
-     - "thanks" or "thank you": Expresses gratitude.
+3. **Run NERD AI:**
+   - Execute `python nerd_ai.py` to start the AI.
 
-### 6. Close Chat or Application:
-   - **Commands:**
-     - "exit", "close", or "quit": Exits the chat or application.
+## Features
 
-### 7. ShutDown/Restart Computer:
-   - **Commands:**
-     - "shutdown": Initiates a computer shutdown.
-     - "restart": Initiates a computer restart.
+### Voice Commands
 
-### 8. Unrecognized Commands:
-   - If the user enters a command that doesn't match any recognized words or queries, the AI provides a message indicating the input is not recognized. It also suggests referring to the documentation for more information.
+NERD AI supports both voice and text commands. You can switch between voice and text input modes using the following commands:
 
-### 9. Additional Notes:
-   - The user can interrupt the AI while it's speaking or processing a command.
+- To switch to text input: "Type or Speak: text input"
+- To switch to voice input: "Type or Speak: voice input"
 
-### 10. Exit Confirmation:
-   - When the user attempts to exit or perform a shutdown/restart, the AI asks for confirmation to prevent accidental actions.
+### Web Search
 
-### 11. Error Handling:
-   - The AI provides error messages in case of invalid commands or unexpected errors during execution.
+NERD AI can perform web searches using popular search engines. Simply say or type:
 
-Note: This documentation is a brief overview. For detailed information and updates, refer to the official documentation (to be made available soon).
+- "Search [your query]"
+
+The AI will prompt you to choose a search engine (Google, Bing, Yahoo, or Wikipedia).
+
+### Language Translation
+
+NERD AI can translate text from one language to another. Use the following command:
+
+- "Translate [text]"
+
+The AI will prompt you to choose the target language (e.g., 'es' for Spanish, 'hi' for Hindi)
+
+### Open Applications
+
+NERD AI can open various applications. Use commands like:
+
+- "Open Chrome"
+- "Open Notepad"
+- "Open File Explorer"
+
+### Display Time and Date
+
+Ask NERD AI for the current time or date:
+
+- "What is the time?"
+- "Tell me the date."
+
+### Shut Down/Restart Computer
+
+You can shut down or restart your computer with:
+
+- "Shut down my computer"
+- "Restart my computer"
+
+### Other Commands
+
+NERD AI supports several other commands, including:
+
+- Review Command History: "History"
+- Exit NERD AI: "Exit," "Close," "Quit"
+
+## Issues and Contributions
+
+If you encounter any issues or have suggestions for improvement, please [open an issue](https://github.com/your-username/nerd-ai/issues) on the GitHub repository. Contributions are welcome!
+
+## License
+
+NERD AI is licensed under the [MIT License](LICENSE). Feel free to use and modify the code as needed.
+
+Thank you for using NERD AI! If you have any questions, feel free to reach out.
