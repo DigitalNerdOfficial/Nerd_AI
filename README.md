@@ -13,6 +13,7 @@ Welcome to NERD AI - your personal digital assistant designed to assist you with
      - speech_recognition
      - wikipedia-api
      - googletrans==4.0.0-rc1
+     - beautifulsoup4
 
 2. **Setup:**
    - Clone the NERD AI repository.
@@ -74,6 +75,17 @@ NERD AI supports several other commands, including:
 
 - Review Command History: "History"
 - Exit NERD AI: "Exit," "Close," "Quit"
+
+### Additional Features
+
+- **Weather Information:** Ask NERD AI about the weather in a specific city.
+  - Example: "Weather in [city]"
+
+- **News Updates:** Get the latest news headlines from BBC News.
+  - Example: "News"
+
+- **Jokes and Trivia:** Lighten up your day with jokes and trivia.
+  - Example: "Tell me a joke" or "Trivia"
 
 ## Issues and Contributions
 
