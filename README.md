@@ -77,7 +77,7 @@ NERD AI supports several other commands, including:
 
 ## Issues and Contributions
 
-If you encounter any issues or have suggestions for improvement, please [open an issue](https://github.com/your-username/nerd-ai/issues) on the GitHub repository. Contributions are welcome!
+If you encounter any issues or have suggestions for improvement, please [open an issue](https://github.com/DigitalNerdOfficial/Nerd_AI/issues) on the GitHub repository. Contributions are welcome!
 
 ## License
 
