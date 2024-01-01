@@ -19,7 +19,7 @@ Welcome to NERD AI - your personal digital assistant designed to assist you with
    - Navigate to the project directory in your terminal.
 
 3. **Run NERD AI:**
-   - Execute `python nerd_ai.py` to start the AI.
+   - Execute `python NERD_AI.py` to start the AI.
 
 ## Features
 
