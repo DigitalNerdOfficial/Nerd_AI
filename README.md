@@ -8,7 +8,7 @@ Welcome to NERD AI - your personal digital assistant designed to assist you with
 
 1. **Requirements:**
    - Python 3.x
-   - Required Python packages (install using `pip install -r requirements.txt`)
+   - Required Python packages (install using <code>pip install *modules*</code>)
      - pyttsx3
      - speech_recognition
      - wikipedia-api
